@@ -14,7 +14,7 @@ def count_me():
 
 	freq_list = freq.keys()
 
-	for word in freq_list:               #here you will get frequency to each word..
+	for word in freq_list:               #here you will get frequency coresponding to each word..
 		print word, freq[word]
 
                       
