@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-yt = YouTube(str(input("Enter the video link: ")))
+yt = YouTube(str(input("Enter the video link: ")))  #enter the video link
 videos = yt.get_videos()
 
 s = 1
@@ -11,7 +11,7 @@ for v in videos:
 n = int(input("Enter the number of the video: "))
 vid = videos[n-1]
 
-destination = str(input("Enter the destination: "))
+destination = str(input("Enter the destination: "))  #enter the destination  on your computer
 vid.download(destination)
 
 print(yt.filename+"\nHas been successfully downloaded")
