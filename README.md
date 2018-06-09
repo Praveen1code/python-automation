@@ -7,6 +7,4 @@
  
  ## 2. Download youtube video:
  
-     you can download youtube video using  python module (pytube)
-
-   
+     you can download youtube video using  python library (pytube)......   
