@@ -14,9 +14,9 @@ def count_me():
 
 	freq_list = freq.keys()
 
-	for word in freq_list:
+	for word in freq_list:               #here you will get frequency to each word..
 		print word, freq[word]
 
-
+                      
 if __name__ == '__main__':
 	count_me()
