@@ -1,1 +1,1 @@
-# pythom-automation
+# python-automation
