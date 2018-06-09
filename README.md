@@ -8,3 +8,7 @@
  ## 2. Download youtube video:
  
      you can download youtube video using  python library (pytube)......   
+
+ ##  3. Open any website on browser:
+    
+     you  can download youtube video using python library (webbrowser)....
